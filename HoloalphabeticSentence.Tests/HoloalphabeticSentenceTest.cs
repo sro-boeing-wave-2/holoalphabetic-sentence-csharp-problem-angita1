@@ -8,7 +8,7 @@ namespace HoloalphabeticSentence.Tests
     public class HoloalphabeticSentenceTest
     {
         [Fact]
-        public void Sentence_empty()
+        public void Sentence_Empty()
         {
             HoloalphabeticSentence.IsHoloalphabeticSentence("").Should().BeFalse();
         }
